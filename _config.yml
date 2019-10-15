@@ -1,0 +1,6 @@
+sass:
+    style: compressed
+    load_paths:
+        - _sass
+include: [/node_modules/normalize.css/]
+

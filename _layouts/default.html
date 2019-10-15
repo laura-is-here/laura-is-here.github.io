@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ page.title }}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Open+Sans|Work+Sans&display=swap" rel="stylesheet">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta property="og:title"       content="Your Site Title">
+        <meta property="og:site_name"   content="Your Site Title | your site url">
+        <meta property="og:type"        content="website">
+        <meta property="og:image"       content="{{ '/assets/images/site-image.png' | prepend: site.baseurl }}">
+        <meta property="og:url"         content="">
+        <meta property="og:description" content="">
+
+        <link href="{{ '/assets/images/yourlogo.png' | prepend: site.baserul }}" rel="shortcut icon" type="image/ico">
+
+        <link href="https://yoururl" rel="canonical">
+    </head>
+    <body>
+        {% include header.html %}
+        {% include navigation.html %}
+        <main>
+            {{ content }}
+        </main>
+        {% include footer.html %}
+        <!--Font Awesome SVGs-->
+        <script src="/assets/vendor/all.js"></script>
+        <!--Your site scripts-->
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>

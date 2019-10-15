@@ -1,0 +1,25 @@
+---
+title: portfolio | laura is here
+layout: default
+---
+<div class="container">
+    <h1>portfolio</h1>
+    <div class="flex-container">
+        {% for item in site.data.projects %}
+        <div class="card">
+            <figure>
+                <img src="{{ item.image.source }}" alt="{{ item.image.alt }}" width="100%">
+            </figure>
+            <h2 class="">
+                <a href="{{ item.link }}" class="header-link" rel="noreferrer" target="_blank">
+                    {{ item.name }} 
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </h2>
+            <p>
+                {{ item.description }} 
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+</div>

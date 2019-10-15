@@ -1,0 +1,8 @@
+- name: home
+  link: /
+- name: portfolio 
+  link: /portfolio.html
+- name: blog
+  link: /blog.html
+- name: contact
+  link: "#contact" 

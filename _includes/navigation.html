@@ -1,0 +1,21 @@
+<nav role="navigation">
+    <a href="{{ 'index.html' | prepend: site.baseurl }}" class="logo">
+        <img src="/assets/images/Pink_triangle.svg.png" height="30px" alt="Your logo)"> 
+    </a>
+    <button type="button" id="menu-toggler">
+            <span>Menu</span>
+            <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="nav-content">
+        <ul class="nav-links">
+        {% for item in site.data.navigation %}
+            <li class="nav-link">
+                <a href="{{ item.link }}" class="{% if page.url == item.link %}active {% endif %}nav-link">
+                    {{ item.name }}{% if page.url == item.link %}<span class="sr-only">(current)</span>{% endif %}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</nav>
