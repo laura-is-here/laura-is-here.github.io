@@ -55,7 +55,7 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: "Open Sans Condensed", "Work Sans", sans-serif;
-  line-height: $base-line-height*0.7;
+  line-height: $base-line-height*0.9;
 }
 header {
     padding: 15px;
@@ -119,23 +119,19 @@ main {
     margin: 0 20%;
   }
 }
-.flex-container {
+.flex-container { // only use in .container
   display: flex;
   flex-flow: column nowrap;
-  margin: 0 4%;
 
   @media #{$mq-medium} {
-    margin: 0 8%;
     flex-flow: row wrap;
   }
 
   @media #{$mq-large} {
-    margin: 0 16%;
     flex-flow: row nowrap;
   }
 
   @media #{$mq-xlarge} {
-    margin: 0 20%;
   }
 }
 nav {
