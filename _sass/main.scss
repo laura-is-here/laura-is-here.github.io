@@ -136,6 +136,7 @@ main {
 }
 nav {
     position: sticky;
+    z-index: 10;
     top: 0px;
     padding: 10px;
     background-color: var(--dark-bg);
@@ -245,7 +246,7 @@ nav {
   &:hover,
   &:active {
     color: var(--main-color);
-    background-color: var(--main-font-color);
+    background-color: var(--dark-bg);
   }
 }
 .color-main {
@@ -253,7 +254,7 @@ nav {
 }
 .card {
   background-color: var(--main-bg);
-  padding: 15px;
+  padding: 0;
   color: var(--main-font-color);
   margin: 15px auto;
   border-radius: 5px;
@@ -263,9 +264,17 @@ nav {
     color: var(--main-color);
   }
 
+  figure {
+    margin: 0;
+  }
+
   @media #{$mq-medium} {
     margin: 25px;
   }
+}
+.card-body {
+  margin: 0 auto;
+  padding: 1em 2em;
 }
 .header-link {
   text-decoration: none;
@@ -281,6 +290,21 @@ nav {
   &:hover {
     color: var(--main-bg);
     border-bottom: 5px solid var(--accent-color); 
+  }
+}
+.no-style-link {
+  text-decoration: none;
+  &:link,
+  &:visited {
+    color: initial;
+    background-color: none;
+    text-decoration: none;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 0.95;
+    border-bottom: initial;
   }
 }
 .border-bottom {
