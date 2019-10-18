@@ -2,36 +2,38 @@
     <div class="flex-container">
         <div>
             <h1><span class="border-bottom-accent">contact</span></h1>
-            <p>
-                <a href="mailto:lauras_here@pm.me">
-                <i class="fas fa-envelope"></i>
-                   lauras_here@pm.me
-                </a>
-            </p>
-            <p>
-                <a href="#">
-                <i class="fab fa-twitter"></i>
-                    under construction 
-                </a>
-            </p>
-            <p>
-                <a href="https://github.com/laura-is-here">
-                <i class="fab fa-github"></i>
-                    laura-is-here
-                </a>
-            </p>
+            <ul>
+                <li>
+                    <a href="mailto:lauras_here@pm.me">
+                        <i class="fas fa-envelope"></i>
+                        lauras_here@pm.me
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        under construction 
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/laura-is-here">
+                        <i class="fab fa-github"></i>
+                        laura-is-here
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class="">
             <h1><span class="border-bottom">navigation</span></h1>
             <ul>
-            {% for item in site.data.navigation %}
+                {% for item in site.data.navigation %}
                 <li>
                     <a href="{{ item.link }}" class="no-link-style">
                         {{ item.name }}{% if page.url == item.link %}<span class="sr-only">(current)</span>{% endif %}
                         <i class="fas fa-arrow-right"></i>
                     </a>
                 </li>
-            {% endfor %}
+                {% endfor %}
             </ul>
         </div>
     </div>

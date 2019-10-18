@@ -292,19 +292,54 @@ nav {
     border-bottom: 5px solid var(--accent-color); 
   }
 }
+.list-group {
+  list-style: none;
+  margin: 2em 1em;
+  padding: 0;
+
+  @media #{$mq-small} {
+    margin: 2em 3em; 
+  }
+}
+.list-group-row {
+  display: flex;
+  flex-flow: column;
+  border-top: 4px solid var(--main-color-muted);
+  padding: 0;
+  margin: 0.5em 0;
+
+  @media #{$mq-medium} {
+    flex-flow: row nowrap;
+    margin: 1em 0;
+
+  }
+}
+.list-group-img {
+  padding: 0;
+  object-fit: cover;
+  margin: 0;
+  flex: 1;
+}
+.list-group-body {
+  padding: 0.5em;
+  flex: 2;
+}
 .no-style-link {
   text-decoration: none;
   &:link,
   &:visited {
+    display: inline;
     color: initial;
-    background-color: none;
+    background-color: transparent;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
   }
   &:hover,
   &:focus,
   &:active {
     opacity: 0.95;
-    border-bottom: initial;
+    border: none;
   }
 }
 .border-bottom {
@@ -314,8 +349,18 @@ nav {
   border-bottom: 5px solid var(--accent-color);
 }
 footer {
+  text-align: center;
   background-color: var(--main-bg-muted);
   @extend %flex-center;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding: 0.25em 0;
+    }
+  }
 
   .flex-container div {
     padding: 0 3em;
