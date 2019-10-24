@@ -1,4 +1,4 @@
-SHELL := /bin/zsh
+SHELL := /bin/bash
 NPM := npm
 VENDOR_DIR = assets/vendor/
 JEKYLL := jekyll

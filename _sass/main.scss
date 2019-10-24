@@ -58,14 +58,20 @@ h1,h2,h3,h4,h5,h6 {
   line-height: $base-line-height*0.9;
 }
 header {
-    padding: 15px;
+    padding: 1.5em;
     background-color: var(--off-white);
+    background-image: url("/assets/images/pink_blue_gradient.svg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
 
     h1,h2 {
-        margin: 0.3em auto;
+        margin: 0.1em auto;
+        font-size: 3em;
+
     }
 }
 a {
