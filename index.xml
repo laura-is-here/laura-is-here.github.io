@@ -6,9 +6,21 @@
     <description>Recent content on Laura is Here</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 28 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://laura-is-here.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>what is a static site?</title>
+      <link>https://laura-is-here.github.io/posts/2019-10-28-what-is-a-static-site/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://laura-is-here.github.io/posts/2019-10-28-what-is-a-static-site/</guid>
+      <description>&lt;p&gt;at one point in the now vast history of the web, essentially all websites were &lt;strong&gt;static&lt;/strong&gt;&amp;mdash;mostly meaning that they were not &lt;strong&gt;dynamic&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;to understand this and the implications for us now, let&amp;rsquo;s take a look at some of the work that goes on behind the scenes when a user visits a site.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Long Beach Anarchist Collective</title>
@@ -26,17 +38,6 @@
       
       <guid>https://laura-is-here.github.io/portfolio/tiffanyhootontherapy/</guid>
       <description>&lt;p&gt;the website for tiffany hooton&amp;rsquo;s queer and gender affirming therapy practice&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>what is a static site?</title>
-      <link>https://laura-is-here.github.io/posts/2019-10-28-what-is-a-static-site/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://laura-is-here.github.io/posts/2019-10-28-what-is-a-static-site/</guid>
-      <description>&lt;p&gt;at one point in the now vast history of the web, essentially all websites were &lt;strong&gt;static&lt;/strong&gt;&amp;mdash;mostly meaning that they were not &lt;strong&gt;dynamic&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;to understand this and the implications for us now, let&amp;rsquo;s take a look at some of the work that goes on behind the scenes when a user visits a site.&lt;/p&gt;</description>
     </item>
     
   </channel>
