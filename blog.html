@@ -18,7 +18,18 @@ layout: default
     <div class="grid-item grid-item-main">
         <div class="container-inner">
             <h1>latest <span class="border-bottom-ain">posts</span></h1>
-            <p>coming soon!</p>
+            <ul>
+            {% for post in site.posts %}
+                <li>
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p>
+                        on {{ post.date | date_to_string }}<br>
+                        by {{ post.author }}
+                    </p>
+                    {{ post.excerpt }}
+                </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
 </div>

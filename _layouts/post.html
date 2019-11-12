@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="grid-container">
+    <div class="grid-item grid-item-intro">
+        <div class="container-inner">
+            <h1>
+                {{ page.title }}
+            </h1>
+            <p>
+                on {{ page.date | date_to_string }}<br>
+                by {{ page.author }}
+            </p>
+        </div>
+    </div>
+    <div class="grid-item grid-item-side">
+        <div class="container-inner">
+            <h2>selected <span class="border-bottom-main">posts</span></h2>
+        </div>
+    </div>
+    <div class="grid-item grid-item-main">
+        <div class="container-inner">
+            {{ content }}
+        </div>
+    </div>
+</div>
