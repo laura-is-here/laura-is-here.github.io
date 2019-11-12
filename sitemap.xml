@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/jekyll/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/anarchistlb/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/static-sites/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/tiffanyhootontherapy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/web-development/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/2019-10-28-what-is-a-static-site/</loc>
+  </url>
+  
+</urlset>
