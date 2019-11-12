@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Laura is Here</title>
-    <link>http://example.org/tags/</link>
+    <link>https://laura-is-here.github.io/tags/</link>
     <description>Recent content in Tags on Laura is Here</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://laura-is-here.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>jekyll</title>
-      <link>http://example.org/tags/jekyll/</link>
+      <link>https://laura-is-here.github.io/tags/jekyll/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/jekyll/</guid>
+      <guid>https://laura-is-here.github.io/tags/jekyll/</guid>
       <description></description>
     </item>
     
     <item>
       <title>static sites</title>
-      <link>http://example.org/tags/static-sites/</link>
+      <link>https://laura-is-here.github.io/tags/static-sites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/static-sites/</guid>
+      <guid>https://laura-is-here.github.io/tags/static-sites/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web development</title>
-      <link>http://example.org/tags/web-development/</link>
+      <link>https://laura-is-here.github.io/tags/web-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/web-development/</guid>
+      <guid>https://laura-is-here.github.io/tags/web-development/</guid>
       <description></description>
     </item>
     

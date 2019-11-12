@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Laura is Here</title>
-    <link>http://example.org/portfolio/</link>
+    <link>https://laura-is-here.github.io/portfolio/</link>
     <description>Recent content in Portfolio on Laura is Here</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://laura-is-here.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Long Beach Anarchist Collective</title>
-      <link>http://example.org/portfolio/anarchistlb/</link>
+      <link>https://laura-is-here.github.io/portfolio/anarchistlb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/portfolio/anarchistlb/</guid>
+      <guid>https://laura-is-here.github.io/portfolio/anarchistlb/</guid>
       <description>&lt;p&gt;the website for long beach anarchist collective&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tiffany Hooton Therapy</title>
-      <link>http://example.org/portfolio/tiffanyhootontherapy/</link>
+      <link>https://laura-is-here.github.io/portfolio/tiffanyhootontherapy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/portfolio/tiffanyhootontherapy/</guid>
+      <guid>https://laura-is-here.github.io/portfolio/tiffanyhootontherapy/</guid>
       <description>&lt;p&gt;the website for tiffany hooton&amp;rsquo;s queer and gender affirming therapy practice&lt;/p&gt;</description>
     </item>
     
