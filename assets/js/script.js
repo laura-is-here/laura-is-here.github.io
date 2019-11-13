@@ -19,6 +19,7 @@ window.onscroll = function() {
 }
 */
 
+/*
 menuToggle.addEventListener('click', () => {
    menuContent.classList.toggle('show'); 
    if (menuContent.classList.contains('show')) {
@@ -29,4 +30,4 @@ menuToggle.addEventListener('click', () => {
        menuToggleIcon.item(1).classList.replace('fa-window-close', 'fa-bars');
    }
 });
-
+*/
