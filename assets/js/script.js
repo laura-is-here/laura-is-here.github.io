@@ -1,7 +1,6 @@
 const menuToggle = document.querySelector('#menu-toggler');
 const html = document.querySelector('html');
 const menuContent = document.querySelector('.nav-content');
-const headerHeight = document.querySelector('header').scrollHeight;
 const navBar = document.querySelector('nav');
 
 document.addEventListener('DOMContentLoaded', () => {
