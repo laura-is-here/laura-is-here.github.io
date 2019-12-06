@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Laura is Here</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://laura-is-here.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dr. Jekyll and Mr. ... Hugo?</title>
+      <link>https://laura-is-here.github.io/posts/2019-11-12-dr-jekyll-and-mr-hugo/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://laura-is-here.github.io/posts/2019-11-12-dr-jekyll-and-mr-hugo/</guid>
+      <description>&lt;h2 id=&#34;my-experiences-with-two-mainstays-in-the-world-of-static-sites&#34;&gt;My experiences with two mainstays in the world of static sites&lt;/h2&gt;
+
+&lt;p&gt;As a primarily self-taught designer and developer, discovering static site generators marked a breakthrough in my web development skills and, more importantly, work flow and build process.&lt;/p&gt;
+
+&lt;p&gt;I cut my teeth on HTML and CSS in plain text files uploaded straight to the server. The first iteration of this site was actually hosted on &lt;a class=&#34;anchor&#34; href=&#34;https://neocities.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;neocities&lt;/a&gt; and was, in fact, primarily edited in their in-browser editor!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What is a static site?</title>
