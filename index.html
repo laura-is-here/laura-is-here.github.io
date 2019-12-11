@@ -10,7 +10,7 @@
     <meta name="description" content="I am a freelance web developer specializing in accessible, fast, and mobile-friendly sites.">
     
     
-    <link rel="stylesheet" href="https://laura-is-here.github.io/css/main.min.2cf7f431545a240fb2fd38c4e07d1a03381a3e1a1dfae0341eebb894b9c17981.css">
+    <link rel="stylesheet" href="https://laura-is-here.github.io/css/main.min.81c1ce9866c5ec30354e6a1326273c17b04bbd89c334526de92e1831b089e858.css">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Josefin+Sans&display=swap" rel="stylesheet">
     <meta property="og:title" content="Laura is Here" />
 <meta property="og:description" content="I am a queer and trans freelance web developer specializing in static sites." />
@@ -28,21 +28,21 @@
      <script src="https://kit.fontawesome.com/ee98754881.js" crossorigin="anonymous" defer></script>
 </head>
     <body>
-        <header class="bg-triangles-grad">
+        <header class="bg-stripes">
     <div class="container">
-        <p class="site-title">
+        <h1 class="site-title">
             <a href="/" class="no-style-link">
-                Laura is <span class="border-bottom">here</span><br>
+                <span class="text--bg-line">
+                    Laura is here<br>
+                </span>
             </a>    
-            <small>
+            <small class="text--bg-line">
                 Freelance web designer & developer
             </small>
-        </p>
+        </h1>
     </div>
 </header>
 <nav class="navbar   container">
-    
-        
         <div class="nav-content">
             <ul class="nav-links">
                 
@@ -77,10 +77,9 @@
     </nav>
         <main class="">
             
-<section class="">
-    <div class="">
+<section>
         <div class="container    stack">
-            <div class="measure--md    card     padding--lg     bg-main    margin-top--lg">
+            <div class="measure--md    card     padding--lg     bg-main">
                 <h1>
                     Hello, world!
                 </h1>
@@ -94,14 +93,18 @@
             </div>
             <div class="">
                 <h1>
-                    My latest projects
+                    <span class="text--bg-line--primary">
+                        My latest projects
+                    </span>
                 </h1>
                 <div class="flex-container">
                     
-                    <div class="flex-item   measure--md">
+                    <div class="flex-item   measure--md    padding-x--lg">
                         <h2 class="">
                             <a href="https://smallworldtravelafrica.org" class="anchor" rel="noreferrer" target="_blank">
-                                Small World Travel Africa
+                                <span class="text--bg-line--accent">
+                                    Small World Travel Africa
+                                </span>
                             </a>
                         </h2>
                         <figure class="">
@@ -118,10 +121,12 @@
                         </figure>
                     </div>
                     
-                    <div class="flex-item   measure--md">
+                    <div class="flex-item   measure--md    padding-x--lg">
                         <h2 class="">
                             <a href="https://tiffanyhootonmft.com/" class="anchor" rel="noreferrer" target="_blank">
-                                Tiffany Hooton Therapy
+                                <span class="text--bg-line--accent">
+                                    Tiffany Hooton Therapy
+                                </span>
                             </a>
                         </h2>
                         <figure class="">
@@ -142,13 +147,19 @@
                 <a href="/portfolio/" class="anchor--button">View my full portfolio</a>
             </div>
             <div>
-                <h1>Latest posts</h1>
-                <div class="flex-container">
+                <h1>
+                    <span class="text--bg-line--primary">
+                        Latest posts
+                    </span>
+                </h1>
+                <ul class="list-group   flex-container">
                     
-                    <div class="flex-item   measure--md    padding-x--lg">
+                    <li class="flex-item   measure--md    padding-x--lg">
                         <h2>
                             <a href="/posts/2019-11-12-dr-jekyll-and-mr-hugo/" class="anchor">
-                                Dr. Jekyll and Mr. &hellip; Hugo?
+                                <span class="text--bg-line--accent">
+                                    Dr. Jekyll and Mr. &hellip; Hugo?
+                                </span>
                             </a>
                         </h2>
                         <p class="font-color-muted   margin-top--sm">
@@ -165,13 +176,14 @@
 
 <p>I cut my teeth on HTML and CSS in plain text files uploaded straight to the server. The first iteration of this site was actually hosted on <a class="anchor" href="https://neocities.org" target="_blank" rel="noopener noreferer">neocities</a> and was, in fact, primarily edited in their in-browser editor!</p>
 
-                        <a href="/posts/2019-11-12-dr-jekyll-and-mr-hugo/" class="anchor--button">Read more</a>
-                    </div>
+                    </li>
                     
-                    <div class="flex-item   measure--md    padding-x--lg">
+                    <li class="flex-item   measure--md    padding-x--lg">
                         <h2>
                             <a href="/posts/2019-10-28-what-is-a-static-site/" class="anchor">
-                                What is a static site?
+                                <span class="text--bg-line--accent">
+                                    What is a static site?
+                                </span>
                             </a>
                         </h2>
                         <p class="font-color-muted   margin-top--sm">
@@ -186,12 +198,12 @@
 
 <p>To understand this and the implications for us now, let&rsquo;s take a look at some of the work that goes on behind the scenes when a user visits a site.</p>
 
-                        <a href="/posts/2019-10-28-what-is-a-static-site/" class="anchor--button">Read more</a>
-                    </div>
+                    </li>
                     
-                </div>
+                </ul>
+                <a href="/posts/" class="anchor--button">Read more of my blog</a>
             </div>
-            <div class="flex-container     card     bg-main    padding--lg    margin-top--lg    measure--md">
+            <div class="flex-container     card     bg-main    padding--lg    measure--md">
                 <div class="flex-item   position-relative">
                     <h1>About me</h1>
                     <p>
@@ -231,51 +243,54 @@
                     </figure>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="">
-    <div class="container">
-        <div id="contact" class="sidebar">
-            <div class="flex-container">
-                <div class="">
-                    <h1><span class="border-bottom-accent">Contact</span></h1>
-                    <p>Fill out the form below to get in touch with me</p>
-                    <form action="https://formspree.io/xdoolldp" method="POST">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" id="name" name="name" placeholder="your name" required class="form-control">
-                        <label for="_replyto" class="form-label">Email</label>
-                        <input type="email" id="_replyto" name="_replyto" placeholder="your email" required class="form-control">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea id="message" name="message" placeholder="your message" rows="6" required class="form-control"></textarea>
-                        <input type="submit" value="Send Message" class="form-control">
-                    </form>
-                    <h1><span class="border-bottom">Navigation</span></h1>
-                    <ul class="list-group">
-                        
-                        <li>
-                            <a href="/" class="anchor">
-                                Home
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="/portfolio/" class="anchor">
-                                Portfolio
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="/posts/" class="anchor">
-                                Blog
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </div>
+        <div id="contact" class="sidebar   measure--md">
+    <div class="flex-container">
+        <div class="">
+            <h1>
+                <span class="text--bg-line--primary">
+                    Contact
+                </span>
+            </h1>
+            <p>Fill out the form below to get in touch with me</p>
+            <form action="https://formspree.io/xdoolldp" method="POST">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" placeholder="your name" required class="form-control">
+                <label for="_replyto" class="form-label">Email</label>
+                <input type="email" id="_replyto" name="_replyto" placeholder="your email" required class="form-control">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" placeholder="your message" rows="6" required class="form-control"></textarea>
+                <input type="submit" value="Send Message" class="form-control">
+            </form>
+            <h1>
+                <span class="text--bg-line--primary">
+                    Navigation
+                </span>
+            </h1>
+            <ul class="list-group">
+                
+                <li>
+                    <a href="/" class="anchor">
+                        Home
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="/portfolio/" class="anchor">
+                        Portfolio
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="/posts/" class="anchor">
+                        Blog
+                    </a>
+                </li>
+                
+            </ul>
         </div>
     </div>
 </div>
+        </div>
 </section>
 
         </main>
