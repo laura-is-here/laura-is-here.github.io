@@ -15,26 +15,26 @@ if(toggle) {
   toggle.addEventListener('click', (e) => {  
     let pressed = e.target.getAttribute('aria-pressed') === 'true';
     e.target.setAttribute('aria-pressed', String(!pressed));
-    resetTheme(e, pressed);
+    resetTheme(pressed);
   });
   
   function initTheme() {
-    var darkThemeSelected = (localStorage.getItem('themeSwitch') !== null && localStorage.getItem('themeSwitch') === 'dark'); 
+    let darkThemeSelected = (localStorage.getItem('themeSwitch') !== null && localStorage.getItem('themeSwitch') === 'dark'); 
     
     toggle.setAttribute('aria-pressed', darkThemeSelected);
     
     darkThemeSelected ? document.body.setAttribute('data-theme', 'dark') : document.body.removeAttribute('data-theme');
   }
   
-  function resetTheme(e, pressed) {
-    if (pressed !== true) {
+  function resetTheme(pressed) {
+    if (!pressed) {
       document.body.setAttribute('data-theme', 'dark'); 
       localStorage.setItem('themeSwitch', 'dark');  
     } else {
       document.body.removeAttribute('data-theme');
-      localStorage.removeItem('theme-switch');
+      localStorage.removeItem('themeSwitch');
     }
-  } 
+  }; 
 }
 
 /*
