@@ -9,7 +9,7 @@
     <meta name="description" content="I am a freelance web developer specializing in accessible, fast, and mobile-friendly sites.">
     
     
-    <link rel="stylesheet" href="https://laura-is-here.github.io/css/main.min.607a4d203e091190416b0943195ffe091e5815a53e16481fd590688fb27d995d.css">
+    <link rel="stylesheet" href="https://laura-is-here.github.io/css/main.min.bcb18fe15c146aa961947ed3a387d9aae339715f13057c313a9f0ae08c7831d6.css">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Josefin+Sans&display=swap" rel="stylesheet">
     <meta property="og:title" content="Posts" />
 <meta property="og:description" content="I am a queer and trans freelance web developer specializing in static sites." />
@@ -27,50 +27,72 @@
      <script src="https://kit.fontawesome.com/ee98754881.js" crossorigin="anonymous" defer></script>
 </head>
     <body>
-        <header class="bg-stripes">
+        <header>
     <div class="container">
         <h1 class="site-title">
             <a href="/" class="no-style-link">
-                <span class="text--bg-line">
+                <span class="text--bg-line--primary">
                     Laura is here<br>
                 </span>
             </a>    
-            <small class="text--bg-line">
+            <small class="text--bg-line--accent">
                 Freelance web designer & developer
             </small>
         </h1>
+    </div>
+</header>
+<nav class="navbar   container">
+    <ul class="nav-links">
+        
+        
+        <li class="">
+            <a href="/" class="nav-link">
+                Home
+            </a>
+        </li>
+        
+        <li class="">
+            <a href="/portfolio/" class="nav-link">
+                Portfolio
+            </a>
+        </li>
+        
+        <li class="">
+            <a href="/posts/" class="active nav-link">
+                Blog<span class="sr-only">(current)</span>
+            </a>
+        </li>
+        
+    </ul>
+    <div class="position-relative">
         <button class="switch" id="themeSwitch" aria-pressed="false">
             <i class="fas fa-moon"></i> 
             Toggle Dark Theme
         </button>
+        <button class="switch" id="colorSwitch" aria-expanded="false">
+            <i class="fas fa-brush"></i>
+            Choose Theme Color
+        </button>
+        <ul class="list-group   collapsible    bg-main   card" hidden>
+            <li>
+                <button class="switch    orange-hue">
+                   Orange 
+                </button>
+            </li>
+            <li>
+                <button class="switch    blue-hue">
+                    Blue 
+                </button>
+            </li>
+            <li>
+                <button class="switch    pink-hue">
+                   Pink 
+                </button>
+            </li>
+        </ul>
+        
     </div>
-</header>
-<nav class="navbar   container">
-        <div class="nav-content">
-            <ul class="nav-links">
-                
-                
-                <li class="">
-                    <a href="/" class="nav-link">
-                        Home
-                    </a>
-                </li>
-                
-                <li class="">
-                    <a href="/portfolio/" class="nav-link">
-                        Portfolio
-                    </a>
-                </li>
-                
-                <li class="">
-                    <a href="/posts/" class="active nav-link">
-                        Blog<span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                
-            </ul>
-        </div>
-    </nav>
+</nav>
         <main class="">
             
 <section class="">

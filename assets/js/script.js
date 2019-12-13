@@ -45,3 +45,45 @@ if(toggle) {
     }
   }; 
 }
+
+const colorSwitch = document.querySelector('#colorSwitch');
+
+if(colorSwitch) {
+  colorSwitch.addEventListener('click', (e) => {
+    let target = e.target.nextElementSibling;
+
+    if(target.hasAttribute('hidden')) {
+      target.removeAttribute('hidden');
+      e.target.setAttribute('aria-expanded', 'true');
+      target.addEventListener('click', (e) => changeColor(e))
+    } else {
+      target.setAttribute('hidden', '');
+      e.target.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  function changeColor(e) {
+    if (e.target.classList.contains('orange-hue')) {
+      document.documentElement.classList.add('color-in-transition');
+      document.documentElement.style.setProperty('--main-hue', 'var(--red-hue');
+      document.documentElement.style.setProperty('--accent-hue', 'var(--yellow-hue');
+      window.setTimeout(function() {
+        document.documentElement.classList.remove('color-in-transition') }, 1000
+      );
+    } else if (e.target.classList.contains('blue-hue')) {
+      document.documentElement.classList.add('color-in-transition');
+      document.documentElement.style.setProperty('--main-hue', 'var(--blue-hue');
+      document.documentElement.style.setProperty('--accent-hue', 'var(--pink-hue');
+      window.setTimeout(function() {
+        document.documentElement.classList.remove('color-in-transition') }, 1000
+      );
+    } else if (e.target.classList.contains('pink-hue')) {
+      document.documentElement.classList.add('color-in-transition');
+      document.documentElement.style.setProperty('--main-hue', 'var(--pink-hue');
+      document.documentElement.style.setProperty('--accent-hue', 'var(--green-hue');
+      window.setTimeout(function() {
+        document.documentElement.classList.remove('color-in-transition') }, 1000
+      );
+    }
+  }
+}
