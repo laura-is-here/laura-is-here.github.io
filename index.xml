@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laura is Here</title>
@@ -18,9 +18,7 @@
       
       <guid>https://laura-is-here.github.io/posts/2019-11-12-dr-jekyll-and-mr-hugo/</guid>
       <description>&lt;h2 id=&#34;my-experiences-with-two-mainstays-in-the-world-of-static-sites&#34;&gt;My experiences with two mainstays in the world of static sites&lt;/h2&gt;
-
 &lt;p&gt;As a primarily self-taught designer and developer, discovering static site generators marked a breakthrough in my web development skills and, more importantly, work flow and build process.&lt;/p&gt;
-
 &lt;p&gt;I cut my teeth on HTML and CSS in plain text files uploaded straight to the server. The first iteration of this site was actually hosted on &lt;a class=&#34;anchor&#34; href=&#34;https://neocities.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;neocities&lt;/a&gt; and was, in fact, primarily edited in their in-browser editor!&lt;/p&gt;</description>
     </item>
     
@@ -30,10 +28,8 @@
       <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://laura-is-here.github.io/portfolio/small-world-travel-africa/</guid>
-      <description>&lt;p&gt;Steve and Catherine Hanna Askin&amp;rsquo;s website for Small World Travel Africa, a service offering cultural learning and travel experiences in southern Africa.&lt;/p&gt;
-
+      <description>&lt;p&gt;Steve and Catherine Hanna Askin&#39;s website for Small World Travel Africa, a service offering cultural learning and travel experiences in southern Africa.&lt;/p&gt;
 &lt;p&gt;Built with:&lt;/p&gt;
-
 &lt;p&gt;&lt;a class=&#34;anchor&#34; href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Hugo&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://sass-lang.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;SCSS&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://necolas.github.io/normalize.css&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Normalize.css&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://postcss.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;PostCSS&lt;/a&gt;  &amp;amp; &lt;a class=&#34;anchor&#34; href=&#34;https://autoprefixer.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Autoprefixer&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
@@ -43,10 +39,8 @@
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://laura-is-here.github.io/portfolio/tiffanyhootontherapy/</guid>
-      <description>&lt;p&gt;The website for Tiffany Hooton&amp;rsquo;s queer and gender affirming therapy practice.&lt;/p&gt;
-
+      <description>&lt;p&gt;The website for Tiffany Hooton&#39;s queer and gender affirming therapy practice.&lt;/p&gt;
 &lt;p&gt;Built with:&lt;/p&gt;
-
 &lt;p&gt;&lt;a class=&#34;anchor&#34; href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Hugo&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://sass-lang.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;SCSS&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://necolas.github.io/normalize.css/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Normalize.css&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://postcss.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;PostCSS&lt;/a&gt; &amp;amp; &lt;a class=&#34;anchor&#34; href=&#34;https://autoprefixer.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Autoprefixer&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
@@ -56,9 +50,8 @@
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://laura-is-here.github.io/posts/2019-10-28-what-is-a-static-site/</guid>
-      <description>&lt;p&gt;At one point in the now vast history of the web, essentially all websites were &lt;strong&gt;static&lt;/strong&gt;&amp;mdash;mostly meaning that they were not &lt;strong&gt;dynamic&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;To understand this and the implications for us now, let&amp;rsquo;s take a look at some of the work that goes on behind the scenes when a user visits a site.&lt;/p&gt;</description>
+      <description>&lt;p&gt;At one point in the now vast history of the web, essentially all websites were &lt;strong&gt;static&lt;/strong&gt;—mostly meaning that they were not &lt;strong&gt;dynamic&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;To understand this and the implications for us now, let&#39;s take a look at some of the work that goes on behind the scenes when a user visits a site.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -68,9 +61,7 @@
       
       <guid>https://laura-is-here.github.io/portfolio/anarchistlb/</guid>
       <description>&lt;p&gt;The website for Long Beach Anarchist Collective&lt;/p&gt;
-
 &lt;p&gt;Built with:&lt;/p&gt;
-
 &lt;p&gt;&lt;a class=&#34;anchor&#34; href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Hugo&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://sass-lang.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;SCSS&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://necolas.github.io/normalize.css/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Normalize.css&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://postcss.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;PostCSS&lt;/a&gt; &amp;amp; &lt;a class=&#34;anchor&#34; href=&#34;https://autoprefixer.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Autoprefixer&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
@@ -80,10 +71,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://laura-is-here.github.io/portfolio/stefan-bc-at-law/</guid>
-      <description>&lt;p&gt;Stefan Borst-Censullo&amp;rsquo;s law practice site.&lt;/p&gt;
-
+      <description>&lt;p&gt;Stefan Borst-Censullo&#39;s law practice site.&lt;/p&gt;
 &lt;p&gt;Built with:&lt;/p&gt;
-
 &lt;p&gt;&lt;a class=&#34;anchor&#34; href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Hugo&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://sass-lang.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;SCSS&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://necolas.github.io/normalize.css/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Normalize.css&lt;/a&gt; | &lt;a class=&#34;anchor&#34; href=&#34;https://postcss.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;PostCSS&lt;/a&gt; &amp;amp; &lt;a class=&#34;anchor&#34; href=&#34;https://autoprefixer.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferer&#34;&gt;Autoprefixer&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     

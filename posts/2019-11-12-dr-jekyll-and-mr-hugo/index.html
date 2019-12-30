@@ -9,20 +9,15 @@
     <meta name="description" content="I am a freelance web developer specializing in accessible, fast, and mobile-friendly sites.">
     
     
-    <link rel="stylesheet" href="https://laura-is-here.github.io/css/main.min.7e01ae55fb62938cdadb862b6c426313feb2c5f7020503700e0cc08d6f85d6f1.css">
+    <link rel="stylesheet" href="https://laura-is-here.github.io/css/main.min.20ac01c51438ccf83508077ceca6dd0b1c078592f6815c47e015e3d0e6815664.css">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Josefin+Sans&display=swap" rel="stylesheet">
     <meta property="og:title" content="Dr. Jekyll and Mr. ... Hugo?" />
 <meta property="og:description" content="My experiences with two mainstays in the world of static sites
-
 As a primarily self-taught designer and developer, discovering static site generators marked a breakthrough in my web development skills and, more importantly, work flow and build process.
-
 I cut my teeth on HTML and CSS in plain text files uploaded straight to the server. The first iteration of this site was actually hosted on neocities and was, in fact, primarily edited in their in-browser editor!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://laura-is-here.github.io/posts/2019-11-12-dr-jekyll-and-mr-hugo/" />
-
-<meta property="og:image" content="https://laura-is-here.github.io/assets/images/blue_pink_gradient.svg" />
-
-<meta property="og:image" content="https://laura-is-here.github.io/assets/images/laura-is-here.png" />
+<meta property="og:image" content="https://laura-is-here.github.io/assets/images/blue_pink_gradient.svg"/>
 <meta property="article:published_time" content="2019-12-06T00:00:00+00:00" />
 <meta property="article:modified_time" content="2019-12-06T00:00:00+00:00" />
 
@@ -122,64 +117,7 @@ I cut my teeth on HTML and CSS in plain text files uploaded straight to the serv
                 <a href="/posts/" class="anchor    margin-top--sm">back to latest posts</a> | <a href="/" class="anchor">back home</a>
             </p>
             </div>
-            <h2 id="my-experiences-with-two-mainstays-in-the-world-of-static-sites">My experiences with two mainstays in the world of static sites</h2>
-
-<p>As a primarily self-taught designer and developer, discovering static site generators marked a breakthrough in my web development skills and, more importantly, work flow and build process.</p>
-
-<p>I cut my teeth on HTML and CSS in plain text files uploaded straight to the server. The first iteration of this site was actually hosted on <a class="anchor" href="https://neocities.org" target="_blank" rel="noopener noreferer">neocities</a> and was, in fact, primarily edited in their in-browser editor!</p>
-
-<p>It wasn&rsquo;t until the folks with <a class="anchor" href="https://anarchistlb.org" target="_blank" rel="noopener noreferer">Long Beach Anarchist Collective</a> requested an events page that I started delving more into new solutions for building out new pages quickly and, <a class="anchor" href="https://gettingthingstech.com/hugo-vs.-wordpress-page-load-speed-comparison-hugo-leaves-wordpress-in-its-dust/" target="_blank" rel="noopener noreferer">after ruling out Wordpress as bulky and unnecessary</a>, discovered <a class="anchor" href="https://jekyllrb.com" target="_blank" rel="noopener noreferer">Jekyll</a>.</p>
-
-<h2 id="jekyll">Jekyll</h2>
-
-<p>Jekyll was initially appealing to me due to its home in the realm of Ruby, a language and environment with which I was already somewhat familiar, as well as its flexibility and accessibility for new users.</p>
-
-<p>Jekyll presented several immediate advantages to my work flow and build process:</p>
-
-<ul>
-<li>live rendering of the site on a local server</li>
-<li>the ability to use &ldquo;includes&rdquo; to easily recycle components like menus, headers, etc.</li>
-<li>integration with Sass/SCSS</li>
-</ul>
-
-<p>I transitioned an early version of this site, as well as <a class="anchor" href="https://tiffanyhootontherapy.neocities.org" target="_blank" rel="noopener noreferer">Tiffany Hooton&rsquo;s site</a>, to use Jekyll before starting a more full-flegded blog for <a class="anchor" href="https://anarchistlb.org" target="_blank" rel="noopener noreferer">Long Beach Anarchist Collective</a>. The results, both in terms of development workflow and the final product, were huge improvements to the barebones HTML and CSS that I had worked with before.</p>
-
-<h3 id="cons-of-jekyll">Cons of Jekyll</h3>
-
-<p>Jekyll was not without some cons. As I started delving into the world of NPM and Node more, I found that managing Node modules alongside Ruby was a tad tedious for someone of my skill level, and getting things as simple as Autoprefixer and PostCSS set up within Ruby and Jekyll was less than intuitive and frustrating due to lack of good documentation and unmaintained packages.</p>
-
-<p>As a workaround <a class="anchor" href="https://simpleit.rocks/ruby/jekyll/tutorials/how-to-add-bootstrap-4-to-jekyll-the-right-way/" target="_blank" rel="noopener noreferer">I began using GNU Make</a> to set up the development environment and get the best out of NPM and Ruby based tools.</p>
-
-<p>However, as this development environment got more complex, I began running into problems with build speeds. Jekyll slowed down just a little bit, taking anywhere between 5 - 7 seconds to regenerate the live preview in the browser. While not a <em>long</em> time, the extended periods waiting to click refresh in the browser after every save add up and, again, introduce more frustration to developing.</p>
-
-<h2 id="hugo-something-faster">Hugo: something faster</h2>
-
-<p>Where Jekyll is flexible and approachable, my first impressions of Hugo were the opposite.</p>
-
-<p>Written in Go, <a class="anchor" href="https://gohugo.io" target="_blank" rel="noopener noreferer">Hugo, <em>the world&rsquo;s fastest framework for building websites,</em></a> has a much higher learning curve. But there are also some immediate advantages:</p>
-
-<ul>
-<li>installed as a pre-compiled binary (no dealing with NPM, Ruby, etc.)</li>
-<li>built-in asset pipeline for PostCSS, CSS minification, and image optimization</li>
-<li>live rendering and generation that is <em>blazing</em> fast</li>
-</ul>
-
-<p>With the <a class="anchor" href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener noreferer">quick start guide</a> supplied in the documentation, you will absolutely have Hugo up and running in no time—if you&rsquo;re okay with using a pre-built theme.</p>
-
-<p>I am <em>not</em> a theme type of person. Web design and frontend development are attractive to me because I&rsquo;m a picky and detailed tinkerer, so any theme I&rsquo;m using has to be wide open for modifications.</p>
-
-<p>With some knowledge, Hugo&rsquo;s themes are absolutely open to customization, but that&rsquo;s not something a beginner will be ready to dive into, and since themes are independently maintained, you&rsquo;re often working with documentation that is not fully fleshed out or out of date, especially since Hugo is much more rigid when it comes to templating and directory structures.</p>
-
-<p>All that being said, if you spend some time with Hugo and take your time with the documentation, Hugo is really worth it. It&rsquo;s incredibly fast and includes plenty of built-in functionality that will be useful if working with NPM and Node is not your cup of tea.</p>
-
-<p>Once you&rsquo;re familiar with some of the quirks of the setup, Hugo will be a very powerful tool in your arsenal.</p>
-
-<h2 id="the-bottom-line">The bottom line</h2>
-
-<p>I&rsquo;ve begun moving many of my Jekyll projects over to Hugo. Jekyll is a fantastic tool, but Hugo suits my needs a bit better and cuts down on a lot of time spent with configuration and managing assets that Jekyll can require.</p>
-
-<p>If you&rsquo;re new to static site generators, I can&rsquo;t recommend <a class="anchor" href="https://jekyllrb.com/docs/step-by-step/01-setup/" target="_blank" rel="noopener noreferer">Jekyll&rsquo;s step by step tutorial</a> enough to get you up and running and tinkering away. Hugo, on the other hand, takes some more getting used to in order to really get a firm grasp on how to fully utilize it, but it is very powerful, very fast, and very worth it. <a class="anchor" href="https://forestry.io/blog/hugo-vs-jekyll-benchmark/" target="_blank" rel="noopener noreferer">Did I mention it&rsquo;s fast?</a></p>
-
+            <!-- raw HTML omitted -->
             <hr>
             <p class="font-color-muted    margin-top--sm">
                 <a href="/posts/" class="anchor">back to latest posts</a> | <a href="/" class="anchor">back home</a>
