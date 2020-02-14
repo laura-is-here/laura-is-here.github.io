@@ -1,0 +1,24 @@
+{{ define "main" }}
+        <div class="container   measure--md">
+            <div class="card    padding--lg   bg-main">
+            <h1>
+                {{ .Title }}
+            </h1>
+            <p class="font-color-muted    margin-top--sm">
+                <em>
+                    <small>posted on </small>
+                    <strong>{{ .Date.Format "January 2, 2006" }}</strong>
+                    <small>by</small>
+                    <strong>{{ .Page.Params.author }}</strong>
+                </em><br>
+                <a href="/posts/" class="anchor    margin-top--sm">back to latest posts</a> | <a href="/" class="anchor">back home</a>
+            </p>
+            </div>
+            {{ .Content | markdownify }}
+            <hr>
+            <p class="font-color-muted    margin-top--sm">
+                <a href="/posts/" class="anchor">back to latest posts</a> | <a href="/" class="anchor">back home</a>
+            </p>
+    {{ partial "sidebar.html" . }}
+        </div>
+{{ end }}

@@ -1,0 +1,45 @@
+---
+layout: layouts/baseof.njk
+---
+
+<section class="">
+  <div class="container">
+    <h1>
+      <span class="text--bg-line--primary">
+        Portfolio
+      </span>
+    </h1>
+    <ul class="list-group    grid-container">
+      {% for item in collections.portfolio %}
+      <li class="padding--lg   measure--md    card    bg-main">
+        <h2>
+          <a
+            href="{{ item.data.link }}"
+            class="anchor"
+            rel="noreferrer"
+            target="_blank"
+            >{{ item.data.title }}
+            <mark class="text--bg-line--accent"> </mark>
+          </a>
+        </h2>
+        <figure>
+          <a
+            href="{{ item.data.link }}"
+            class="no-style-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              data-src="{{item.data.image.source}}"
+              alt="{{item.data.image.alt}}"
+              class="card    lazy-load"
+              width="100%"
+            />
+          </a>
+        </figure>
+        <p></p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

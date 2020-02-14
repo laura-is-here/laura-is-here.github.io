@@ -1,0 +1,115 @@
+---
+layout: layouts/baseof.njk
+title: home
+---
+
+<section>
+  <div class="stack">
+    <div class="grid-container--auto   padding--lg    bg-main">
+      <div class="measure--sm ">
+        <h1>
+          Web design and development on the JAMStack (& Beyond)
+        </h1>
+        <p>
+          I am a web designer and developer specializing in fast, accessible,
+          and mobile-friendly websites using JAMStack technology and best
+          practices.
+        </p>
+        <p>
+          I am currently available to work on new projects.
+        </p>
+        <a href="#contact" class="anchor--button">Hire me!</a>
+      </div>
+      <div class="padding--lg    bg-accent   card">
+        {% include "person-whiteboard-svg.html" %}
+      </div>
+    </div>
+    <div class="">
+      <h2>
+        <span class="text--bg-line--primary">
+          Projects I've Worked On
+        </span>
+      </h2>
+      <ul class="list-group    stack">
+        {% for item in collections.portfolio %}
+        <li class="grid-container--auto    card   bg-accent">
+          <div class="flex-column--center    bg-main">
+            <h3 class="h2   padding--lg">
+              {{ item.data.title }}
+            </h3>
+            <img
+              data-src="{{ item.data.image.source }}"
+              alt="{{ item.data.image.alt }}"
+              class="lazy-load"
+              width="100%"
+            />
+          </div>
+          <div class="bg-accent   padding--lg">
+            {{ item.templateContent | safe }}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="grid-container--auto    padding--lg    bg-accent">
+      <div>
+        <h2>About me</h2>
+        <p>Briefly, some of my favorite parts of web design and development:</p>
+        <ul>
+          <li><strong>Accessibility and inclusivity</strong></li>
+          <li><strong>The JAMStack</strong></li>
+          <li><strong>Unique, elegant user interfaces</strong></li>
+        </ul>
+
+        <p>
+          I began developing the web during an undergraduate class on human
+          factors.
+        </p>
+        <p>
+          In the time I've worked as a developer, I've done my best to create
+          accessible, responsive websites with hand-coded user interfaces
+          developed from scratch.
+        </p>
+        <p>
+          I am queer and trans and love working with other queer and trans
+          folks, as well as POC, sex workers, and activists.
+        </p>
+        <h3 class="h2">My skills</h3>
+        <ul class="">
+          <li class="">Semantic HTML</li>
+          <li>CSS/SCSS</li>
+          <li class="">
+            Static site generators:
+            <ul>
+              <li>Jekyll</li>
+              <li>Hugo</li>
+              <li>Eleventy</li>
+              <li>Gatsby</li>
+            </ul>
+          </li>
+          <li class="">
+            Crafting content, including:
+            <ul>
+              <li>Writing</li>
+              <li>Basic graphic & logo design</li>
+              <li>Color-schemes & typography</li>
+            </ul>
+          </li>
+          <li class="">Vanilla Javascript, ES6+</li>
+          <li>Much more!</li>
+        </ul>
+        <p>
+          Please <a href="#contact" class="anchor">contact me</a> if you'd like
+          to hire me to work on a project.
+        </p>
+      </div>
+      <div>
+        <div class="flex-column--center   padding--lg">
+          {% include "contact-envelope-svg.html" %}
+          <h2 class="h1">Contact Me</h2>
+        </div>
+        {% include "sidebar.njk" %}
+      </div>
+    </div>
+  </div>
+</section>
