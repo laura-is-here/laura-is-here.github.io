@@ -59,6 +59,3 @@ typings/
 
 # next.js build output
 .next
-
-# eleventy.js build output
-dist
