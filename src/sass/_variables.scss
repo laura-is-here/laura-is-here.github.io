@@ -1,0 +1,44 @@
+// Breakpoints
+$bp-small: 48rem; // 768px
+$bp-medium: 64rem; // 1024px
+$bp-large: 85.375rem; // 1366px
+$bp-xlarge: 120rem; // 1920px
+$bp-xxlarge: 160rem; // 2560px
+
+// Media Queries
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+
+// Font-Size
+$base-font-size: 1rem;
+
+// Line-Height
+$base-line-height: 1.35;
+$header-line-height: 1.15;
+
+$main-font-family: Roboto, sans-serif;
+
+
+/*
+$main-color: #65e;
+$main-color-muted: #a9f;
+$main-color-bright: #a9f;
+$accent-color: #d38;
+$main-bg: #13102a;
+$main-font-color: #eef;
+$dark-bg: #ccd;
+
+$main-color: #5BCEFA;
+$main-color-muted: #429BBB;
+$main-color-bright: #82DAFB;
+$accent-color: #FE66CB;
+$accent-bg: #F1ECF0;
+$main-bg: #ecf0f1;
+$main-bg-muted: #DFE2E3;
+$main-font-color: #45454a;
+$dark-bg: #24242a;
+*/

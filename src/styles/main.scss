@@ -6,11 +6,11 @@
 :root {
   --blue-hue: 240;
   --pink-hue: 320;
-  --orange-hue: 180;
+  --orange-hue: 160;
   --yellow-hue: 35;
   --green-hue: 145;
   --main-hue: var(--blue-hue);
-  --accent-hue: calc(var(--main-hue) - 160);
+  --accent-hue: calc(var(--main-hue) - 40);
   --blue-100: hsla(196, 65%, 15%, 100%);
   --blue-200: hsla(196, 65%, 25%, 100%);
   --blue-300: hsla(196, 65%, 35%, 100%);
@@ -56,12 +56,12 @@
   --slate-700: hsla(240, 30%, 60%, 100%);
   --slate-800: hsla(240, 30%, 65%, 100%);
   --slate-900: hsla(240, 30%, 70%, 100%);
-  --theme-color: hsla(var(--main-hue), 65%, 85%, 100%);
-  --theme-color-muted: hsla(var(--main-hue), 65%, 35%, 100%);
-  --accent-color: hsla(var(--accent-hue), 60%, 70%, 100%);
+  --theme-color: hsla(240, 75%, 75%, 100%);
+  --theme-color-muted: hsla(240, 65%, 35%, 100%);
+  --accent-color: hsla(var(--accent-hue), 70%, 70%, 100%);
   --accent-color-muted: hsla(var(--accent-hue), 30%, 20%, 100%);
   --background-color: hsla(var(--main-hue), 2%, 92%, 100%);
-  --font-color: hsla(var(--main-hue), 15%, 30%, 100%);
+  --font-color: hsla(var(--main-hue), 15%, 20%, 100%);
   --font-color-muted: hsla(var(--main-hue), 0%, 35%, 100%);
   --slate: var(--slate-400);
   --switch-width: 64px;
@@ -116,10 +116,9 @@
   --slate-700: hsla(240, 30%, 60%, 100%);
   --slate-800: hsla(240, 30%, 65%, 100%);
   --slate-900: hsla(240, 30%, 70%, 100%);
-  --theme-color: hsla(var(--main-hue), 64%, 33%, 100%);
-  --theme-color-muted: hsla(var(--main-hue), 64%, 23%, 100%);
-  --accent-color: hsla(var(--accent-hue), 77%, 23%, 100%);
-  --accent-color-muted: var(--pink-300);
+  --theme-color: hsla(240, 64%, 33%, 100%);
+  --theme-color-muted: hsla(240, 64%, 63%, 100%);
+  --accent-color: hsla(var(--accent-hue), 64%, 33%, 100%);
   --accent-color-muted: hsla(var(--accent-hue), 77%, 83%, 100%);
   --background-color: hsla(var(--main-hue), 15%, 15%, 100%);
   --font-color: hsla(var(--main-hue), 2%, 90%, 100%);
@@ -127,29 +126,29 @@
   --slate: var(--slate-300);
 
   .orange-hue {
-    background-color: hsla(var(--orange-hue), 64%, 33%, 100%);
+    background-color: hsla(calc(var(--orange-hue) - 40), 64%, 33%, 100%);
 
     &:hover,
     &:focus {
-      background-color: hsla(var(--orange-hue), 64%, 33%, 100%);
+      background-color: hsla(calc(var(--orange-hue) - 40), 64%, 33%, 100%);
     }
   }
 
   .pink-hue {
-    background-color: hsla(var(--pink-hue), 64%, 33%, 100%);
+    background-color: hsla(calc(var(--pink-hue) - 40), 64%, 33%, 100%);
 
     &:hover,
     &:focus {
-      background-color: hsla(var(--pink-hue), 64%, 33%, 100%);
+      background-color: hsla(calc(var(--pink-hue) - 40), 64%, 33%, 100%);
     }
   }
 
   .blue-hue {
-    background-color: hsla(var(--blue-hue), 64%, 33%, 100%);
+    background-color: hsla(calc(var(--blue-hue) - 40), 64%, 33%, 100%);
 
     &:hover,
     &:focus {
-      background-color: hsla(var(--blue-hue), 64%, 33%, 100%);
+      background-color: hsla(calc(var(--blue-hue) - 40), 64%, 33%, 100%);
     }
   }
 
@@ -199,18 +198,13 @@ html.color-in-transition *:before {
 }
 
 body {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 3 6h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: $base-font-size;
   line-height: $base-line-height;
   color: var(--font-color);
-  background-color: var(--background-color);
   font-weight: 400;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  flex: 1 0 0;
+  background-color: var(--background-color);
 
   @media #{$mq-medium} {
     font-size: $base-font-size * 1.2;
@@ -228,6 +222,22 @@ body {
   @media #{$mq-xxlarge} {
     font-size: $base-font-size * 1.6;
   }
+}
+
+.wrapper {
+  background-color: var(--background-color);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  flex: 1 0 0;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+  width: 100%;
+}
+
+main {
+  z-index: 20;
 }
 
 /* ------------------------------------- $TYPOGRAPHY */
@@ -316,6 +326,10 @@ strong {
   font-weight: 600;
 }
 
+.font--light {
+  font-weight: 400;
+}
+
 /* -------------------------------------- $LINKS */
 
 a {
@@ -380,13 +394,6 @@ button,
 /* ------------------------------ $CONTAINERS */
 
 .container {
-  margin: 0 4%;
-  --grid-item-size: 80vw;
-
-  @media #{$mq-medium} {
-    --grid-item-size: 30vw;
-  }
-
   @media #{$mq-large} {
     margin: 0 10%;
   }
@@ -411,10 +418,6 @@ button,
     border-right: 4px solid var(--accent-color);
     display: grid;
     align-items: start;
-    grid-template-columns: repeat(
-      auto-fill,
-      minmax(var(--grid-item-size), 1fr)
-    );
     --grid-item-size: 80vw;
 
     @media #{$mq-medium} {
@@ -431,8 +434,82 @@ button,
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1.5rem;
+  align-items: start;
 }
 
+.portfolio__card {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+  padding: 0.5rem;
+
+  @media #{$mq-small} {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  &:hover {
+    .portfolio__card__img {
+      filter: contrast(90%);
+      transform: translateY(-1.5rem);
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2), 0px 0px 7px rgba(0, 0, 0, 0.2);
+    }
+    .portfolio__card__body {
+      transform: scale(1.05);
+    }
+  }
+
+  + .card,
+  .portfolio__card {
+    margin-top: 1.5rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.portfolio__card__header {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  grid-area: 1 / 1 / 2 / 2;
+
+  @media #{$mq-small} {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+}
+
+.portfolio__card__img {
+  object-fit: cover;
+  filter: contrast(70%);
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+}
+
+.portfolio__card__body {
+  position: relative;
+  grid-area: 2 / 1 / 3 / 2;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2), 0px 0px 7px rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease-in-out;
+  margin: -1.5rem 0 0 -0.75rem;
+
+  @media #{$mq-small} {
+    grid-area: 1 / 2 / 2 / 4;
+  }
+
+  @media #{$mq-medium} {
+    grid-area: 1 / 2 / 3 / 4;
+  }
+}
 .card {
   border-radius: 5px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2), 0px 0px 7px rgba(0, 0, 0, 0.2);
@@ -537,6 +614,10 @@ button,
   }
 }
 
+.bg-base {
+  background-color: var(--background-color);
+}
+
 .bg-main {
   background-color: var(--theme-color);
 
@@ -550,8 +631,6 @@ button,
 
 .bg-accent {
   background-color: var(--accent-color);
-  --font-color: var(--accent-color-muted);
-  --font-color-muted: var(--light-600);
   color: var(--font-color);
 
   .anchor--button {
@@ -570,8 +649,16 @@ button,
   padding: 0;
 }
 
-.padding--lg {
+.padding-y--sm {
+  padding: 0.25rem 0;
+}
+
+.padding--md {
   padding: 0.75rem;
+}
+
+.padding--lg {
+  padding: 1.5rem;
 
   @media #{$mq-medium} {
     padding: 2.25rem;
@@ -625,7 +712,7 @@ button,
 }
 
 .orange-hue {
-  background-color: hsla(var(--orange-hue), 65%, 85%, 100%);
+  background-color: hsla(calc(var(--orange-hue) - 40), 75%, 75%, 100%);
   width: 3.75rem;
   height: 1.5rem;
   transition: 0.2s ease-in-out;
@@ -634,12 +721,12 @@ button,
   &:hover,
   &:focus {
     transform: scale(1.1);
-    background-color: hsla(var(--orange-hue), 65%, 85%, 100%);
+    background-color: hsla(calc(var(--orange-hue) - 40), 75%, 75%, 100%);
   }
 }
 
 .pink-hue {
-  background-color: hsla(var(--pink-hue), 65%, 85%, 100%);
+  background-color: hsla(calc(var(--pink-hue) - 40), 75%, 75%, 100%);
   width: 3.75rem;
   height: 1.5rem;
   transition: 0.2s ease-in-out;
@@ -648,12 +735,12 @@ button,
   &:hover,
   &:focus {
     transform: scale(1.1);
-    background-color: hsla(var(--pink-hue), 65%, 85%, 100%);
+    background-color: hsla(calc(var(--pink-hue) - 40), 75%, 75%, 100%);
   }
 }
 
 .blue-hue {
-  background-color: hsla(var(--blue-hue), 65%, 85%, 100%);
+  background-color: hsla(calc(var(--blue-hue) - 40), 75%, 75%, 100%);
   width: 3.75rem;
   height: 1.5rem;
   transition: 0.2s ease-in-out;
@@ -662,12 +749,17 @@ button,
   &:hover,
   &:focus {
     transform: scale(1.1);
-    background-color: hsla(var(--blue-hue), 65%, 85%, 100%);
+    background-color: hsla(calc(var(--blue-hue) - 40), 75%, 75%, 100%);
   }
 }
 
 .form-label {
-  display: none;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .form-control {
