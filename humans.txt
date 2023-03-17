@@ -1,0 +1,9 @@
+
+/* TEAM */
+Developer: Laura Gabrielle
+Contact: lauras_here@pm.me
+Site: https://laura-is-here.github.io
+
+
+/* SITE */
+Doctype: HTML5

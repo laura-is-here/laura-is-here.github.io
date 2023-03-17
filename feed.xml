@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://localhost:8080/">
+  <title>Thoughts on web development &amp; more</title>
+  <subtitle>Blogging about accessible web development and web performance, maybe. Plus occassionally SEO</subtitle>
+  <link href="http://localhost:8080/feed.xml" rel="self" />
+  <link href="http://localhost:8080/" />
+  
+  <updated>2019-12-25T00:00:00Z</updated>
+  <id>http://localhost:8080/</id>
+  <author>
+    <name>Laura Gabrielle</name>
+    <email>lauras_here@pm.me</email>
+  </author>
+  <entry>
+    <title>Laura is Here (this site!)</title>
+    <link href="http://localhost:8080/blog/laura-is-here-this-site!/" />
+    <updated>2019-12-25T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/laura-is-here-this-site!/</id>
+    <content
+      xml:lang=""
+      type="html"
+      >&lt;p&gt;This website!&lt;/p&gt;
+&lt;p&gt;My little home on the web to show off all my other cool websites. Experiments with a vanilla JS &lt;a href=&quot;http://localhost:8080/blog/laura-is-here-this-site!/#themeSwitch&quot;&gt;theme-picker&lt;/a&gt; and lazy-loaded images.&lt;/p&gt;
+&lt;p&gt;Built on the JAMStack using 11ty.&lt;/p&gt;
+</content
+    >
+  </entry>
+  <entry>
+    <title>Long Beach Anarchist Collective</title>
+    <link href="http://localhost:8080/blog/long-beach-anarchist-collective/" />
+    <updated>2019-12-15T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/long-beach-anarchist-collective/</id>
+    <content
+      xml:lang=""
+      type="html"
+      >&lt;p&gt;A website built to help Long Beach Anarchist Collective publicize their events, complete with updateable event listing through Forestry CMS and a service worker leveraged from Gatsby’s rich plugin ecosystem to tick that Lighthouse PWA box and enable installation on mobile devices as a web app.&lt;/p&gt;
+&lt;p&gt;Built on the JAMStack using Gatsby and React. Hosted on Netlify.&lt;/p&gt;
+</content
+    >
+  </entry>
+  <entry>
+    <title>Stefan BC at Law</title>
+    <link href="http://localhost:8080/blog/stefan-bc-at-law/" />
+    <updated>2019-11-15T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/stefan-bc-at-law/</id>
+    <content
+      xml:lang=""
+      type="html"
+      >&lt;p&gt;Stefan Borst-Censullo’s law practice site. Migrated and redesigned from Wordpress.&lt;/p&gt;
+</content
+    >
+  </entry>
+  <entry>
+    <title>Tiffany Hooton Therapy</title>
+    <link href="http://localhost:8080/blog/tiffany-hooton-therapy/" />
+    <updated>2019-10-01T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/tiffany-hooton-therapy/</id>
+    <content
+      xml:lang=""
+      type="html"
+      >&lt;p&gt;The website for Tiffany Hooton’s queer and gender affirming therapy practice in Long Beach. Integrated with Forestry CMS for easy content editing.&lt;/p&gt;
+</content
+    >
+  </entry>
+  <entry>
+    <title>Small World Travel Africa</title>
+    <link href="http://localhost:8080/blog/small-world-travel-africa/" />
+    <updated>2019-01-21T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/small-world-travel-africa/</id>
+    <content
+      xml:lang=""
+      type="html"
+      >&lt;p&gt;Steve and Catherine Hanna Askin’s website for Small World Travel Africa, a service offering cultural learning and travel experiences in southern Africa.&lt;/p&gt;
+</content
+    >
+  </entry>
+</feed>
